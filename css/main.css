@@ -1,0 +1,35 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    background-image: url('../img/banner.jpg');
+    position: relative;
+}
+
+.int-banner{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+#form-cita{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem .5rem;
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
+}
+#form-cita h2{
+    margin: 1rem 0;
+    text-align: center;
+}
